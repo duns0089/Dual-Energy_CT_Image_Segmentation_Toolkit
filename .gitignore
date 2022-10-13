@@ -6,7 +6,8 @@ build*/**
 # test artefacts
 test/imgseg
 test/output/*
-test/input
+test/input/
+
 
 #===============================================================================
 # vscode
