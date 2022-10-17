@@ -136,10 +136,10 @@ int main(int argc, char **argv)
         // Save original
         save_reconstruction(num_image_voxels_xyz, phantom_reconstruction, output_path);
 
-        // cout << "\n <> Felzenszwalb Minimal Spanning Tree" << endl;
-        // FelzenszwalbMST FMST = FelzenszwalbMST(num_image_voxels_xyz, phantom_reconstruction, output_path);
-        // FMST.run(0, 0);
-        // FMST.run(0, 0.005);
+        cout << "\n <> Felzenszwalb Minimal Spanning Tree" << endl;
+        FelzenszwalbMST FMST = FelzenszwalbMST(num_image_voxels_xyz, phantom_reconstruction, output_path);
+        FMST.run(0, 0);
+        FMST.run(0, 0.005);
         // FMST.run(1, 0.005);
 
         cout << "\n <> Ganin Minimal Spanning Tree" << endl;
