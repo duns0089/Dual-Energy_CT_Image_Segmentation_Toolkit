@@ -347,6 +347,7 @@ void ImageSpace::readPhantomFromFile(std::string file_name)
     {
         // SPDLOG_ERROR("Could not open file: {} ", file_name);
         // DEC_TRACE;
+        std::cout << "Could not open " << file_name << std::endl;
         exit(1);
     }
     // // Need to read phantom and check if size matches the info file
