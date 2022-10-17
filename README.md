@@ -14,6 +14,7 @@ The Meson Build System is also required, v0.61.2.
 Python 3.10.4.  
 
 ## Toolkit Architecture
+See References to see sources of each algorithm  
 ![toolkit architecture](documentation/diagrams/architecture.png)
 
 ## Running the toolkit
@@ -25,3 +26,10 @@ These are the results from the thesis located in documention/.
 ![ccl results](documentation/diagrams/ccl_segmentation_times.png)
 
 ![mst results](documentation/diagrams/mst_segmentation_times.png)
+
+## References
+Arbitary CCL: From https://ieeexplore.ieee.org/document/87344/ but algorithm better explained in
+https://en.wikipedia.org/wiki/Connected-component_labeling#One_component_at_a_time  
+Playne-Equivalence Parallel CUDA CCL: https://github.com/DanielPlayne/playne-equivalence-algorithm  
+FelzenszwalbMST by Motwani: https://iammohitm.github.io/Graph-Based-Image-Segmentation/  
+Ganin Parallel CUDA MST: https://developer.download.nvidia.com/GTC/PDF/GTC2012/Posters/P0496_Efficient_Segmentation_Trees_by_Ganin.pdf   
