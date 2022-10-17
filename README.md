@@ -1,6 +1,7 @@
-# ImageSegmentation
+# Dual-Energy CT (DECT) Image Segmentation Toolkit
 
 Repository to for CS-155 Algorithmic Segmentation and CS-156 Implement Advanced Segmentation Solution.  
+Contains 2 (+1 optimised version) minimal spanning tree segmentations for greyscale CT images of real numbers and 2 connected-component labelling algorithms for material ID uint8 files.  
 
 ## Input data  
 Get the input folder from the link below, unzip and put the folder ("input/") in the "test" folder  after git cloning (so "test/input/"). This is necessary as the data is too large to upload to GitHub.  
